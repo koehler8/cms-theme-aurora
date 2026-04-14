@@ -1,7 +1,8 @@
 # @koehler8/cms-theme-aurora — Aurora Drift
 
 - **Slug**: `aurora`
-- **Version**: 1.0.0
+- **Version**: 1.0.1
+- **Author**: koehler8
 
 ## Install
 
@@ -38,3 +39,11 @@ If your deployment blocks Google Fonts, self-host the `Space Grotesk` family or 
 
 - Optimized for dark hero art and neon iconography; avoid pairing with extremely light site imagery unless you override section backgrounds.
 - The theme ships only CSS/manifest — no extra JS. Structured tokens follow the standard theme schema so extension components inherit colors automatically.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+## License
+
+[MIT](./LICENSE)

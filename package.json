@@ -2,7 +2,13 @@
   "name": "@koehler8/cms-theme-aurora",
   "version": "1.0.1",
   "description": "Aurora Drift theme — dark sci-fi gradients with electric blue/purple primary hues",
+  "author": "koehler8",
   "license": "MIT",
+  "keywords": ["cms", "theme", "koehler8", "aurora", "dark-theme"],
+  "homepage": "https://github.com/koehler8/cms-theme-aurora#readme",
+  "bugs": {
+    "url": "https://github.com/koehler8/cms-theme-aurora/issues"
+  },
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -12,7 +18,8 @@
     "index.js",
     "theme.config.js",
     "theme.css",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "peerDependencies": {
     "@koehler8/cms": "^1.0.0-beta.1"
@@ -20,5 +27,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koehler8/cms-theme-aurora.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
