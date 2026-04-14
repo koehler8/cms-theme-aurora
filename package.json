@@ -14,6 +14,9 @@
     "theme.css",
     "README.md"
   ],
+  "peerDependencies": {
+    "@koehler8/cms": "^1.0.0-beta.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koehler8/cms-theme-aurora.git"

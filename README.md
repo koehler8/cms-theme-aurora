@@ -11,7 +11,7 @@ npm install @koehler8/cms-theme-aurora
 
 ```js
 // vite.config.js
-import cms from 'cms/vite';
+import cms from '@koehler8/cms/vite';
 
 export default {
   plugins: cms({ siteDir: './site', themes: ['@koehler8/cms-theme-aurora'] }),
