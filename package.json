@@ -1,6 +1,6 @@
 {
   "name": "@koehler8/cms-theme-aurora",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aurora Drift theme for Vertex CMS — dark sci-fi gradients with electric blue/purple primary hues",
   "author": "koehler8",
   "license": "MIT",
@@ -27,8 +27,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koehler8/cms-theme-aurora.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
