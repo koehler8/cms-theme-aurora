@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
+
+:root[data-site-theme="aurora"] {
+  --aurora-glow: 0 0 48px rgba(15, 107, 242, 0.55);
+}
+
+[data-site-theme="aurora"] body {
+  background: radial-gradient(circle at 20% 15%, rgba(15, 107, 242, 0.25), transparent 55%),
+    radial-gradient(circle at 80% 10%, rgba(130, 55, 245, 0.25), transparent 60%),
+    linear-gradient(180deg, #050a16 0%, #0f192c 100%);
+  color: var(--ui-text-primary);
+}
+
+[data-site-theme="aurora"] .container {
+  max-width: min(1180px, 92vw);
+}
+
+[data-site-theme="aurora"] .display-heading {
+  font-family: 'Space Grotesk', var(--ui-heading-font, 'Clash Display');
+  letter-spacing: -0.02em;
+}
+
+[data-site-theme="aurora"] .ui-card {
+  border: 1px solid rgba(130, 55, 245, 0.35);
+  box-shadow: var(--aurora-glow), 0 20px 45px rgba(2, 4, 10, 0.6);
+}
+
+[data-site-theme="aurora"] .ui-card .action-pill {
+  text-transform: uppercase;
+}

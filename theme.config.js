@@ -1,0 +1,225 @@
+const sharedPrimary = '#0f6bf2';
+const sharedPrimaryDeep = '#182b57';
+const sharedSecondary = '#8237f5';
+const sharedAccent = '#f26b0f';
+const sharedNeutral = '#0b1220';
+const sharedNeutralAlt = '#142038';
+const sharedText = '#e1e8ff';
+
+export default {
+  slug: 'aurora',
+  meta: {
+    name: 'Aurora Drift',
+    version: '1.0.0',
+    author: 'koehler8',
+    source: 'public',
+  },
+  tokens: {
+    palette: {
+      primary: sharedPrimary,
+      primaryAccent: sharedPrimaryDeep,
+      secondary: sharedSecondary,
+      accent: sharedAccent,
+      accentSoft: 'rgba(242, 107, 15, 0.28)',
+      neutral: sharedNeutral,
+      neutralStrong: sharedText,
+      neutralSoft: 'rgba(31, 42, 68, 0.85)',
+      inverse: '#ffffff',
+      success: '#239c65',
+      info: sharedPrimary,
+      warning: '#f8a94f',
+      critical: '#ff577a',
+      criticalSoft: 'rgba(255, 87, 122, 0.22)',
+    },
+    text: {
+      primary: sharedText,
+      muted: 'rgba(198, 208, 240, 0.76)',
+      mutedStrong: 'rgba(176, 189, 228, 0.88)',
+      inverse: '#070c18',
+      accent: sharedPrimary,
+      onAccent: '#051127',
+    },
+    surfaces: {
+      base: sharedNeutral,
+      baseAlt: sharedNeutralAlt,
+      raised: '#18253d',
+      sunken: '#101b33',
+      callout: 'rgba(15, 107, 242, 0.22)',
+      card: '#101b33',
+      cardAlt: 'rgba(16, 27, 51, 0.92)',
+      overlay: 'rgba(5, 8, 16, 0.92)',
+      backdrop: 'rgba(5, 8, 16, 0.75)',
+      border: 'rgba(15, 107, 242, 0.28)',
+      divider: 'rgba(15, 107, 242, 0.14)',
+      input: '#0f192c',
+      chip: 'rgba(15, 107, 242, 0.22)',
+      chipAccent: 'rgba(130, 55, 245, 0.22)',
+      helper: {
+        background: 'rgba(15, 107, 242, 0.18)',
+        hover: 'rgba(15, 107, 242, 0.26)',
+        text: sharedText,
+        border: 'rgba(15, 107, 242, 0.32)',
+        heading: sharedText,
+        body: 'rgba(198, 208, 240, 0.8)',
+      },
+      tabs: {
+        background: '#0f192c',
+        border: 'rgba(15, 107, 242, 0.25)',
+        shadow: '0 20px 45px rgba(4, 8, 18, 0.45)',
+        tabColor: 'rgba(198, 208, 240, 0.75)',
+        activeBackground: 'rgba(130, 55, 245, 0.22)',
+        activeColor: '#ffffff',
+        activeShadow: '0 16px 36px rgba(2, 5, 12, 0.45)',
+        stepBackground: 'rgba(255, 255, 255, 0.08)',
+        stepBorder: 'rgba(15, 107, 242, 0.35)',
+        stepColor: '#c0c8ff',
+        activeStepBackground: 'rgba(15, 107, 242, 0.28)',
+        activeStepBorder: 'rgba(15, 107, 242, 0.4)',
+        activeStepColor: '#ffffff',
+      },
+      field: {
+        background: '#0f192c',
+        border: 'rgba(15, 107, 242, 0.35)',
+        shadow: '0 12px 28px rgba(2, 5, 12, 0.65)',
+        addonBackground: 'rgba(5, 8, 16, 0.85)',
+        addonBorder: 'rgba(15, 107, 242, 0.3)',
+        addonColor: '#6de0ff',
+        inputColor: sharedText,
+        inputPlaceholder: 'rgba(198, 208, 240, 0.65)',
+      },
+      strip: {
+        background: '#0f192c',
+        border: 'rgba(130, 55, 245, 0.35)',
+        text: sharedText,
+      },
+      chrome: {
+        background: '#050a16',
+        text: sharedText,
+        shadow: '0 28px 48px rgba(2, 4, 10, 0.7)',
+        compactShadow: '0 14px 32px rgba(2, 4, 10, 0.8)',
+      },
+      backdropPrimary: {
+        background:
+          'linear-gradient(135deg, rgba(15, 107, 242, 0.85), rgba(130, 55, 245, 0.85))',
+        before: 'radial-gradient(circle, rgba(243, 109, 15, 0.25), transparent 60%)',
+        after: 'radial-gradient(circle at 80% 20%, rgba(111, 231, 255, 0.3), transparent 65%)',
+      },
+      backdropSecondary: {
+        background:
+          'linear-gradient(145deg, rgba(11, 18, 32, 0.95), rgba(15, 107, 242, 0.65))',
+        before: 'radial-gradient(circle at 20% 80%, rgba(130, 55, 245, 0.35), transparent 60%)',
+        after: 'radial-gradient(circle at 70% 10%, rgba(15, 107, 242, 0.25), transparent 55%)',
+      },
+    },
+    typography: {
+      bodyFamily: '"Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
+      headingFamily:
+        '"Clash Display", "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
+      monoFamily: '"JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace',
+      baseSize: '16px',
+      scale: 1.125,
+      weightRegular: 400,
+      weightMedium: 500,
+      weightBold: 600,
+      letterSpacingTight: '-0.015em',
+      letterSpacingWide: '0.08em',
+    },
+    ctas: {
+      primary: {
+        bg: 'linear-gradient(135deg, #0f6bf2 0%, #8237f5 55%, #f26b0f 100%)',
+        text: '#050a16',
+        border: '1px solid rgba(255, 255, 255, 0.2)',
+        hoverBg: 'linear-gradient(135deg, #8237f5 0%, #0f6bf2 60%, #6de0ff 100%)',
+        hoverBorder: '1px solid rgba(255, 255, 255, 0.28)',
+        shadow: '0 20px 40px rgba(4, 8, 18, 0.55)',
+      },
+      secondary: {
+        bg: '#101b33',
+        text: sharedText,
+        border: '1px solid rgba(130, 55, 245, 0.4)',
+        hoverBg: 'rgba(130, 55, 245, 0.18)',
+        hoverBorder: '1px solid rgba(130, 55, 245, 0.55)',
+        shadow: '0 10px 24px rgba(2, 4, 10, 0.55)',
+      },
+      ghost: {
+        bg: 'transparent',
+        text: sharedPrimary,
+        border: '1px solid rgba(130, 55, 245, 0.45)',
+        hoverBg: 'rgba(130, 55, 245, 0.15)',
+        hoverBorder: '1px solid rgba(130, 55, 245, 0.65)',
+        shadow: 'none',
+      },
+      link: {
+        text: sharedPrimary,
+        hoverText: sharedAccent,
+        underline: 'rgba(130, 55, 245, 0.45)',
+      },
+    },
+    chips: {
+      neutral: {
+        bg: 'rgba(15, 107, 242, 0.18)',
+        text: sharedText,
+        border: 'rgba(15, 107, 242, 0.3)',
+      },
+      accent: {
+        bg: 'rgba(130, 55, 245, 0.22)',
+        text: '#ffffff',
+        border: 'rgba(130, 55, 245, 0.4)',
+      },
+      outline: {
+        bg: 'transparent',
+        text: sharedAccent,
+        border: '1px solid rgba(242, 107, 15, 0.45)',
+      },
+    },
+    focus: {
+      ring: '0 0 0 2px rgba(15, 107, 242, 0.35)',
+      ringMuted: '0 0 0 1px rgba(15, 107, 242, 0.22)',
+      outline: 'rgba(15, 107, 242, 0.6)',
+      shadowInset: 'inset 0 0 0 1px rgba(15, 107, 242, 0.25)',
+    },
+    radii: {
+      sm: '8px',
+      md: '14px',
+      lg: '24px',
+      pill: '999px',
+      full: '50%',
+    },
+    elevation: {
+      flat: '0 0 1px rgba(10, 15, 30, 0.12)',
+      raised: '0 18px 40px rgba(15, 23, 42, 0.12)',
+      overlay: '0 24px 48px rgba(15, 23, 42, 0.18)',
+    },
+    utility: {
+      divider: 'rgba(15, 107, 242, 0.2)',
+      inputBorder: 'rgba(15, 107, 242, 0.35)',
+      inputText: sharedText,
+      inputPlaceholder: 'rgba(198, 208, 240, 0.65)',
+      selectionBg: 'rgba(130, 55, 245, 0.3)',
+      selectionText: '#ffffff',
+      gradientHero:
+        'linear-gradient(135deg, rgba(15, 107, 242, 0.85), rgba(130, 55, 245, 0.85))',
+      gradientPromo:
+        'linear-gradient(145deg, rgba(11, 18, 32, 0.95), rgba(15, 107, 242, 0.65))',
+      bodyBackground: [
+        'radial-gradient(circle at 18% 25%, rgba(15, 107, 242, 0.32), transparent 60%)',
+        'radial-gradient(circle at 78% 12%, rgba(130, 55, 245, 0.28), transparent 55%)',
+        'linear-gradient(180deg, #050a16 0%, #0f192c 100%)',
+      ],
+      modalSurface: 'rgba(5, 8, 16, 0.96)',
+      modalBorder: 'rgba(130, 55, 245, 0.4)',
+      modalShadow: '0 35px 60px rgba(2, 4, 10, 0.8)',
+      modalRadius: '28px',
+      chartTrack: 'rgba(27, 39, 68, 0.85)',
+      chartCenterText: sharedText,
+      statusHeadline: {
+        background: 'linear-gradient(120deg, rgba(15, 107, 242, 0.35), rgba(242, 107, 15, 0.25))',
+        color: sharedText,
+        shadow: '0 22px 40px rgba(2, 4, 10, 0.65)',
+      },
+    },
+  },
+  assets: {
+    css: './theme.css',
+  },
+};
