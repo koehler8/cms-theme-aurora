@@ -1,5 +1,5 @@
 import manifest from './theme.config.js';
-import css from './theme.css?inline';
+import './theme.css';
 
-export default { manifest, css };
+export default { manifest };
 export { manifest };
