@@ -33,5 +33,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koehler8/cms-theme-aurora.git"
+  },
+  "devDependencies": {
+    "@koehler8/cms": "^1.5.4"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "commands": [
+    "test \"$(npm -v | cut -d. -f1,2)\" = 10.9 || { echo \"verify: npm $(npm -v) is not the pinned 10.9.x\" >&2; exit 1; }",
+    "npm ci --no-audit --no-fund",
+    "node --input-type=module -e \"const m = await import('./theme.config.js'); if (!m.default || typeof m.default.slug !== 'string') process.exit(1)\"",
+    "npm pack --dry-run --json > /dev/null",
+    "npm test --if-present"
+  ],
+  "releasePlan": "echo '{\"release\": false}'"
+}
