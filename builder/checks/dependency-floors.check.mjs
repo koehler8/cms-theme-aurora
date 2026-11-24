@@ -11,7 +11,7 @@
 //
 // package                 floor     reason                                   week
 const FLOORS = {
-  '@koehler8/cms': ['1.5.4', 'in-range update, devDependency baseline', '2026-11-23'],
+  '@koehler8/cms': ['1.5.4', 'devDependency baseline', '2026-11-23'],
 };
 
 import { readFileSync } from 'node:fs';
